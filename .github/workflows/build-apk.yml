@@ -41,3 +41,6 @@ jobs:
           path: launcher/app/build/outputs/apk/release/app-release.apk
           if-no-files-found: error
           retention-days: 7
+
+          on:
+  workflow_dispatch:
